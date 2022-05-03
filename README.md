@@ -8,9 +8,9 @@ A folium map replica of John Snow's cholera outbreak map, where each red marker 
 
 ## Question 2
 A 3D scatter plot of Sir Francis Galton's data on heights of fathers, mothers, and their children.
-<iframe src='../galton-fig.html' width=800 height=600 frameBorder=0></iframe>
+<iframe src='galton-fig.html' width=800 height=600 frameBorder=0></iframe>
 <br>
 
 ## Question 3
 A choropleth map of the population density of each department in France in 2013.
-<iframe src='../france-fig.html' width=800 height=600 frameBorder=0></iframe>
+<iframe src='france-fig.html' width=800 height=600 frameBorder=0></iframe>

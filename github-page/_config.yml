@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   ~ replicas of historical data visualizations ~
 baseurl: "/dsc90-sp22-hw06" # the subpath of your site, e.g. /blog
 url: "https://c6shi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+destination: ./docs
 github_username:  c6shi
 author: Candus Shi
 

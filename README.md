@@ -3,7 +3,7 @@ Candus Shi (c6shi@ucsd.edu)
 
 ## Question 1
 A folium map replica of John Snow's cholera outbreak map, where each blue marker is a pump in 1854 London and each circle corresponds to number of deaths from cholera at each location.
-<iframe src='snow-map.html' width=800 height=800 frameBorder=1></iframe>
+<iframe src='snow-map.html' width=800 height=600 frameBorder=1></iframe>
 <br>
 
 ## Question 2

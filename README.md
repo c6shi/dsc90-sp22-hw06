@@ -1,5 +1,5 @@
 # Homework 6 - History of Data Science
-## Candus Shi (c6shi@ucsd.edu)
+Candus Shi (c6shi@ucsd.edu)
 
 ## Question 1
 A folium map replica of John Snow's cholera outbreak map, where each blue marker is a pump in 1854 London and each circle corresponds to number of deaths from cholera at each location.

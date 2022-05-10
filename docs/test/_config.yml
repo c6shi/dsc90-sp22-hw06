@@ -21,8 +21,8 @@
 title: Homework 6
 email: c6shi@ucsd.edu
 description: DSC90 - History of Data Science @ UC San Diego
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/dsc90-sp22-hw06" # the subpath of your site, e.g. /blog
+url: "https://c6shi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  c6shi
 author: Candus Shi
 

@@ -27,7 +27,7 @@ github_username:  c6shi
 author: Candus Shi
 
 # Build settings
-theme: jekyll-theme-clean-blog
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 

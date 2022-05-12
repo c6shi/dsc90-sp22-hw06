@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/dsc90-sp22-hw06/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/dsc90-sp22-hw06/" rel="alternate" type="text/html" /><updated>2022-05-11T20:09:45-07:00</updated><id>http://localhost:4000/dsc90-sp22-hw06/feed.xml</id><title type="html">Homework 6</title><subtitle>DSC90 - History of Data Science @ UC San Diego</subtitle><author><name>Candus Shi</name></author><entry><title type="html">Cholera Outbreak Map</title><link href="http://localhost:4000/dsc90-sp22-hw06/jekyll/update/2022/05/11/cholera-outbreak-map.html" rel="alternate" type="text/html" title="Cholera Outbreak Map" /><published>2022-05-11T19:45:00-07:00</published><updated>2022-05-11T19:45:00-07:00</updated><id>http://localhost:4000/dsc90-sp22-hw06/jekyll/update/2022/05/11/cholera-outbreak-map</id><content type="html" xml:base="http://localhost:4000/dsc90-sp22-hw06/jekyll/update/2022/05/11/cholera-outbreak-map.html">&lt;p&gt;In 1854, John Snow created his infamous cholera outbreak map, where he tallied the number of deaths from cholera at each address in Soho, London.
+    He also plotted the locations of water pumps, which led him to predict that since most cholera related deaths surrounded the Broad Street pump,
+    cholera was a waterborne disease, rather than due to the conventional idea of &quot;bad air&quot;.&lt;/p&gt;
+
+&lt;p&gt;Dr. Snow&apos;s cholera map is a classic example of how choosing the right data visualization can change someone&apos;s perspective,
+    and it helped propel Dr. Snow to go against conventional idea about how diseases spread.&lt;/p&gt;
+
+Here is the original map drawn by Dr. Snow:
+&lt;img src=&quot;/dsc90-sp22-hw06/images/snow-cholera-map-original.jpg&quot; width=&quot;800&quot;  alt=&quot;Original map made by John Snow in 1854 of cholera cases (Wikimedia Commons)&quot;/&gt;
+
+&lt;p&gt;Some notes:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Each black tally represents a death by cholera at that address.&lt;/li&gt;
+    &lt;li&gt;Each circle labeled &quot;PUMP&quot; represents a water pump.&lt;/li&gt;
+    &lt;li&gt;In the center of the map, we see a high density of cholera cases. The Broad Street Pump also happens to be
+        right at the intersection of Broad Street and Cambridge Street.&lt;/li&gt;
+    &lt;li&gt;Additionally, many of the other pumps do not have any or have very few incidents of cholera-related deaths.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;br&gt;
+
+&lt;h5&gt;Attempt 1: folium&lt;/h5&gt;
+&lt;p&gt;
+    Here&apos;s my very simple version with the folium package:
+&lt;/p&gt;
+
+&lt;iframe src=&quot;/dsc90-sp22-hw06/snow-map.html&quot; width=&quot;825&quot; height=&quot;500&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Some notes:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Each brown circle represents an address where cholera deaths occurred.&lt;/li&gt;
+    &lt;li&gt;The size of the circle indicates the frequency of cholera-related deaths at an address.
+        Clearly, the circle near the Broad Street Pump is much larger than other circles.&lt;/li&gt;
+    &lt;li&gt;Each blue marker represents a water pump.&lt;/li&gt;
+    &lt;li&gt;Hover your mouse over each feature to get more details!&lt;/li&gt;
+&lt;/ul&gt;
+
+TODO:
+&lt;ul&gt;
+    &lt;li&gt;Add source citations&lt;/li&gt;
+    &lt;li&gt;Find out how to zoom on original map&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Candus Shi</name></author><category term="jekyll" /><category term="update" /><summary type="html">In 1854, John Snow created his infamous cholera outbreak map, where he tallied the number of deaths from cholera at each address in Soho, London. He also plotted the locations of water pumps, which led him to predict that since most cholera related deaths surrounded the Broad Street pump, cholera was a waterborne disease, rather than due to the conventional idea of &quot;bad air&quot;.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/dsc90-sp22-hw06/jekyll/update/2022/05/11/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-05-11T19:24:59-07:00</published><updated>2022-05-11T19:24:59-07:00</updated><id>http://localhost:4000/dsc90-sp22-hw06/jekyll/update/2022/05/11/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/dsc90-sp22-hw06/jekyll/update/2022/05/11/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Candus Shi</name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

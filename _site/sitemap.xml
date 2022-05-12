@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/dsc90-sp22-hw06/jekyll/update/2022/05/11/welcome-to-jekyll.html</loc>
+<lastmod>2022-05-11T19:24:59-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dsc90-sp22-hw06/jekyll/update/2022/05/11/cholera-outbreak-map.html</loc>
+<lastmod>2022-05-11T19:45:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dsc90-sp22-hw06/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/dsc90-sp22-hw06/posts/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/dsc90-sp22-hw06/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/dsc90-sp22-hw06/france-fig.html</loc>
+<lastmod>2022-05-06T20:54:14-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dsc90-sp22-hw06/galton-fig.html</loc>
+<lastmod>2022-05-03T22:35:44-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dsc90-sp22-hw06/snow-map.html</loc>
+<lastmod>2022-05-03T23:07:08-07:00</lastmod>
+</url>
+</urlset>
